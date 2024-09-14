@@ -14,6 +14,17 @@ html{
 
 header{
     background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 200px;
+    border-radius: 50%;
+}
+.logo img{
+    border-radius: 50%;
+    border: 3px solid greenyellow;
 }
 nav {
     background-color: blueviolet;
@@ -22,7 +33,12 @@ main{
     background-color: burlywood;
 }
 footer{
-    background-color: chartreuse;
+    background-color: rgb(16, 17, 15);   
+}
+footer p{
+    text-align: center;
+    color: rgb(25, 5, 158);
+    line-height: 22px;
 }
 
 p{
@@ -48,4 +64,50 @@ img{
     margin: 40px auto;
     /* outline: 7px double blue; */
     box-shadow: 9px 9px 9px 9px blue;
+}
+.color{
+    padding: 30px 40px 30px 40px;
+    border: 5px solid rgb(17, 224, 210);
+    margin: 20px auto;
+    outline: 3px solid rgb(92, 47, 255);    
+    box-shadow: 9px 9px 9px 9px blue;
+}
+h1{
+    color: blue;
+    text-shadow: 9px 9px 9px #da1111;
+    padding: 10px;
+}
+h2{
+    color: aqua;
+}
+section > h2{
+    color: blue;
+    /* hijo directo de */
+}
+.imagen+p{
+    color: blueviolet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* Parrafo que continua despues */
+}
+.bloque img{
+    width: 250px;
+    padding: 30px;
+    display: block;
+}
+nav{
+    padding: 20px;
+    text-align: center;
+}
+nav a{
+    background-color: rgb(0, 217, 255);
+    border-radius: 30px;
+    padding: 5px;
+    color: blueviolet;
+    text-decoration: none;
+    margin-right: 20px;
+}
+nav a:hover{
+    background-color: rgb(52, 56, 48);
+    color:rgb(206, 206, 206) ;
+    transition-delay: 80ms;
 }
